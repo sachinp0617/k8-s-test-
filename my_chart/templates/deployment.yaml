@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: {{ .Values.deploymentOne.deploymentName }}
 spec:
-  replicas: {{ .values.deploymentOne.deploymentReplicaCount }}
+  replicas: {{ .Values.deploymentOne.deploymentReplicaCount }}
   selector:
     matchLabels:
       app: php-app
