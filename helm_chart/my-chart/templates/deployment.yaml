@@ -23,14 +23,5 @@ spec:
           requests:
             cpu: 200m
 
----
 
-apiVersion: v1
-kind: Service 
-metadata: 
-    name: php-app-ci
-spec:  
-    selector:
-        app: php-app
-    ports: 
-      - port: 80
+
