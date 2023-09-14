@@ -1,3 +1,0 @@
-deploymentOne:
-    deploymentName: main-app-with-hpa
-    deploymentReplicaCount: 2
